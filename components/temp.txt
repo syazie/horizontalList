@@ -1,0 +1,53 @@
+// /**
+//  * Sample React Native App
+//  * https://github.com/facebook/react-native
+//  *
+//  * @format
+//  * @flow strict-local
+//  */
+
+// import React, {useState} from 'react';
+// import {
+//   StyleSheet,
+//   View,
+//   Text,
+//   FlatList
+// } from 'react-native';
+
+// import Header from './components/header';
+
+// import * as Font from 'expo-font';
+
+// export default function App(){
+//   const [todos,setTodos] = useState([
+//     { text: 'a', key: '1' },
+//     { text: 'b', key: '2' },
+//     { text: 'c', key: '3' }
+//   ]);
+
+//   return (
+//     <View style={styles.container}><Header/>
+//       <View style={styles.content}>{}
+//         <View style={styles.list}>
+//           <FlatList data={todos}renderItem={({item})=>
+//             (<Text>{item.text}</Text>)}
+//           />
+//         </View>
+//       </View>
+//     </View>
+//   );
+//  }
+
+
+//   const styles = StyleSheet.create({
+//       container:{
+//         flex:1,
+//         backgroundColor: '#fff',
+//       },
+//       content:{
+//         padding: 40,
+//       },
+//       list:{
+//         marginTop: 20,
+//       },
+//   });
